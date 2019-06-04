@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#A0B3B4"
+       android:orientation="horizontal">
+      <Button
+    android:layout_width="95dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/toi"
+          android:gravity="center"
+  android:text="TOI"></Button>
+      <Button
+          android:layout_width="95dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/bbc"
+          android:gravity="center"
+          android:text="BBC"></Button>
+      <Button
+          android:layout_width="95dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/cnn"
+          android:gravity="center"
+          android:text="CNN"></Button>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/twt"
+          android:gravity="center"
+
+          android:text="TWP"></Button>
+   </LinearLayout>
+
+   <ListView
+       android:id="@+id/newsa"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#CDE2E4"
+       android:divider="#008577"
+android:dividerHeight="2dp"></ListView>
+
+   <ProgressBar
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/pbar"
+       android:layout_centerInParent="true"/>
+
+</LinearLayout>
